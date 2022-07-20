@@ -14,8 +14,7 @@ const handleSubmit = (e) => {
     addNew({
       content,
       author,
-      info,
-      votes: 0
+      info
     })
     navigate('/', {state:'Anecdote Succesfully added'});
   }
